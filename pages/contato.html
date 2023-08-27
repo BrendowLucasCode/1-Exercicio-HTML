@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Mais Saúde</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="wrapper">
+      <!-- Menu -->
+      <div class="menu">
+        <ul>
+        <li>
+          <span>
+            <a class="btn" href="../../index.html"> Ínicio </a>
+          </span>
+          </li>
+        <li>
+          <span>
+          <a class="btn" href="../pages/sobre-nos.html" > Sobre Nós </a>
+          </span>
+        </li>
+        <li>
+          <span>
+          <a class="btn" href="../pages/atendimentos.html" > Atendimentos </a>
+          </span>      
+        </li>
+        <li>
+          <span>
+          <a class="btn" href="" > Contato </a>
+          </span>    
+        </li> 
+        </ul>
+      </div>
+
+      <div class="main">
+       <!-- Header -->
+        <div class="header">
+          <img src="../assets/img/background1.png" id="Ínicio">
+        </div>
+
+      <!-- Conteúdo -->
+        <div class="content">
+          <h2 class="title"> Localização </h2>
+          <!--Mapa Google-->
+        <span class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30706.524466924373!2d-47.94494312642416!3d-15.84000370417069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospital%20santa%20lucia%20brasilia!5e0!3m2!1spt-BR!2sbr!4v1692822531701!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+        <span>
+          <!--Título-->
+          <h2 class="subtitle"><strong>Ligue para a Mais Saúde ou preencha o formulário</strong></h2>
+          <!--Subtitulo-->
+          <p align="center"><strong>Sinta-se à vontade para entrar em contato conosco a qualquer momento e deixe-nos cuidar da sua saúde.</strong></p>
+        </span>
+          <div class="form-container">
+            <form onsubmit="" class="form" name="signup" autocomplete="off" method="post" action="#">
+                <label><strong>Nome<sup>*</sup></strong></label><br><input size="69" type="text" name="name"><br>
+                <label><strong>Email<sup>*</sup></strong></label><br><input size="69" type="text" name="Email"><br>
+                <label><strong>WhatsApp<sup>*</sup></strong></label><br><input size="69" placeholder="(11) 9999-9999" type="tel" name="number"><br>
+                <label><strong>Assunto<sup>*</sup></strong></label><br><input size="69" type="text" name="text"><br>
+                <label><strong>Já foi nosso Paciente?<sup>*</sup></strong></label><br>
+                <input type="radio" name="borda" value="sim"> Sim<br>
+                <input type="radio" name="borda" value="sim"> Não<br>
+                <label><strong>Qual especialidade você quer atendimento?<sup>*</sup></strong></label>
+                    <select name="role">
+                        <option value="">Selecione a Especialidade</option>
+                        <option value="Ressonância Magnética">Ressonância Magnética</option>
+                        <option value="Tomografia Computadorizada">Tomografia Computadorizada</option>
+                        <option value="Densitometria Óssea">Densitometria Óssea</option>
+                        <option value="Registro Gráficos">Registro Gráficos</option>
+                        <option value="Ultrassonografia">Ultrassonografia</option>
+                        <option value="Raio X">Raio X</option>
+                        <option value="Laboratório">Laboratório</option>
+                        <option value="Laboratório">Psicólogo</option>
+                        <option value="Laboratório">Psiquiatra</option>
+                        <option value="Laboratório">Nutricionista</option>
+                        <option value="Outros">Outros</option>                              
+                    </select><br>
+                <label><strong>Mensagem:</strong></label><br><textarea rows="20" cols="68" name="message"></textarea><br>
+                <button type="submit">Enviar</button> <button type="reset">Limpar</button>  
+            </form>
+        </div>
+
+        </div>
+
+          <!-- Rodapé -->
+          <div class="footer" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: space-evenly; align-items: center;">
+            <div class="left" align="center"><p><strong>Endereço</strong><br>
+              SHLS SHLS 716 Bloco F <br> 
+              Asa Sul – Brasília - DF<br> 
+              70390-700<br></p>
+              </div>
+            
+            <div class="center" align="center"><p><strong>Atendimento</strong><br>
+              Segunda à Sexta: 08:00 às 18:00<br>
+              Sábados: 09:00 às 15:00<br>
+              Domingos: Fechado <br></p>
+              </div>
+            <div class="right" align="center"><p><strong>Contato</strong><br>
+              Entre em contato conosco através<br>
+              do nosso e-mail:<br>
+              contato@maisaude.com.br<br></p>
+              </div>
+            <!-- Aqui vai o seu rodapé -->
+      </div>
+  </body>
+</html>
